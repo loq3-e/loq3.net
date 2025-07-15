@@ -27,15 +27,6 @@
 	<!-- Contact Links -->
 	<div class="flex justify-center space-x-8 mb-20">
 		<a
-			href="mailto:{profile.email}"
-			class="group flex items-center space-x-2 text-gray-600 hover:text-blue-600 transition-colors duration-300"
-		>
-			<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 7.89a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-			</svg>
-			<span>Email</span>
-		</a>
-		<a
 			href={profile.github}
 			target="_blank"
 			rel="noopener noreferrer"

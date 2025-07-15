@@ -1,11 +1,10 @@
 // ポートフォリオデータ（後で編集可能）
 export const profile = {
-	name:     'Your Name',
-	title:    'Software Engineer',
-	bio:      'Passionate about creating clean, efficient, and user-friendly applications. I specialize in modern web technologies and enjoy solving complex problems with elegant solutions.',
-	email:    'your.email@example.com',
-	github:   'https://github.com/yourusername',
-	linkedin: 'https://linkedin.com/in/yourusername',
+	name:     'loq3-e',
+	title:    'Student',
+	bio:      '鈴鹿工業高等専門学校4年',
+	github:   'https://github.com/loq3-e',
+	linkedin: 'https://linkedin.com/in/loq3-e',
 }
 
 export const skills = [
@@ -67,7 +66,6 @@ export interface Profile {
 	name: string
 	title: string
 	bio: string
-	email: string
 	github: string
 	linkedin: string
 }
