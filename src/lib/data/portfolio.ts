@@ -7,18 +7,9 @@ export const profile = {
 }
 
 export const skills = [
-	'JavaScript',
+	'C++',
 	'TypeScript',
-	'React',
-	'Svelte/SvelteKit',
-	'Node.js',
 	'Python',
-	'PostgreSQL',
-	'MongoDB',
-	'Docker',
-	'AWS',
-	'Git',
-	'TailwindCSS',
 ]
 
 export const projects = [
