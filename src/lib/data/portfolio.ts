@@ -4,7 +4,6 @@ export const profile = {
 	title:    'Student',
 	bio:      '鈴鹿工業高等専門学校4年',
 	github:   'https://github.com/loq3-e',
-	linkedin: 'https://linkedin.com/in/loq3-e',
 }
 
 export const skills = [
@@ -67,7 +66,6 @@ export interface Profile {
 	title: string
 	bio: string
 	github: string
-	linkedin: string
 }
 
 export interface Project {
