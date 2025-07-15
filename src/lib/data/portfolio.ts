@@ -6,12 +6,6 @@ export const profile = {
 	github:   'https://github.com/loq3-e',
 }
 
-export const skills = [
-	'C++',
-	'TypeScript',
-	'Python',
-]
-
 export const projects = [
 	{
 		title:       'E-Commerce Platform',

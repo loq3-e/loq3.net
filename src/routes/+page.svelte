@@ -1,13 +1,10 @@
 <script lang="ts">
 	import {
-		HeroSection,
+		Sidebar,
+		AboutSection,
 		ExperienceSection,
-		SkillsSection,
 		ProjectsSection,
-		ContactSection,
-		Footer,
 		profile,
-		skills,
 		projects,
 		experience
 	} from '$lib'
@@ -18,11 +15,24 @@
 	<meta name="description" content={profile.bio} />
 </svelte:head>
 
-<main class="min-h-screen bg-white">
-	<HeroSection {profile} />
-	<ExperienceSection {experience} />
-	<SkillsSection {skills} />
-	<ProjectsSection {projects} />
-	<ContactSection {profile} />
-	<Footer {profile} />
-</main>
+<div class="mx-auto min-h-screen max-w-screen-xl font-sans lg:flex lg:justify-between lg:gap-4">
+	<Sidebar {profile} />
+	
+	<main class="px-6 py-12 md:px-12 md:py-20 lg:w-1/2 lg:py-24">
+		<AboutSection />
+		<ExperienceSection {experience} />
+		<ProjectsSection {projects} />
+	</main>
+</div>
+
+<style>
+	:global(html) {
+		background-color: #0f172a;
+		color: #94a3b8;
+	}
+	
+	:global(body) {
+		margin: 0;
+		padding: 0;
+	}
+</style>
