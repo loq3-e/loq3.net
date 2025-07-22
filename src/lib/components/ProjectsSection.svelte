@@ -5,6 +5,8 @@
 </script>
 
 <section id="projects" class="mb-16 scroll-mt-16 lg:mb-24 lg:scroll-mt-24">
+	<h2 class="text-2xl font-light text-black mb-8 tracking-wide">Projects</h2>
+	
 	<div class="space-y-8">
 		{#each projects as project}
 			<div class="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-70">

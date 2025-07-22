@@ -3,6 +3,8 @@
 </script>
 
 <section id="about" class="mb-16 scroll-mt-16 lg:mb-24 lg:scroll-mt-24">
+	<h2 class="text-2xl font-light text-black mb-8 tracking-wide">About</h2>
+	
 	<div class="text-gray-600 leading-relaxed font-light">
 		<p class="mb-4">
 			私は鈴鹿工業高等専門学校で学んでいる学生で、ソフトウェア開発に情熱を注いでいます。

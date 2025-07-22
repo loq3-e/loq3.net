@@ -5,6 +5,8 @@
 </script>
 
 <section id="experience" class="mb-16 scroll-mt-16 lg:mb-24 lg:scroll-mt-24">
+	<h2 class="text-2xl font-light text-black mb-8 tracking-wide">Experience</h2>
+	
 	<div class="space-y-8">
 		{#each experience as exp}
 			<div class="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-70">
