@@ -1,6 +1,6 @@
 <script lang="ts">
 	import {
-		Sidebar,
+		HeaderSection,
 		AboutSection,
 		ExperienceSection,
 		ProjectsSection,
@@ -15,20 +15,19 @@
 	<meta name="description" content={profile.bio} />
 </svelte:head>
 
-<div class="mx-auto min-h-screen max-w-screen-xl font-sans lg:flex lg:justify-between lg:gap-4">
-	<Sidebar {profile} />
-	
-	<main class="px-6 py-12 md:px-12 md:py-20 lg:w-1/2 lg:py-24">
+<div class="min-h-screen font-sans" style="padding-left: 128px; padding-right: 128px;">
+	<div class="max-w-4xl mx-auto py-16">
+		<HeaderSection {profile} />
 		<AboutSection />
 		<ExperienceSection {experience} />
 		<ProjectsSection {projects} />
-	</main>
+	</div>
 </div>
 
 <style>
 	:global(html) {
-		background-color: #0f172a;
-		color: #94a3b8;
+		background-color: #ffffff;
+		color: #374151;
 	}
 	
 	:global(body) {
